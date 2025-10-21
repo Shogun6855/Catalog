@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="3.1">
+<servlet>
+<servlet-name>AddToCartServlet</servlet-name>
+<servlet-class>com.catalog.AddToCartServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>AddToCartServlet</servlet-name>
+<url-pattern>/addToCart</url-pattern>
+</servlet-mapping>
+<welcome-file-list>
+<welcome-file>catalog.jsp</welcome-file>
+</welcome-file-list>
+</web-app>
